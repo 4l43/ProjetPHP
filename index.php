@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Marcellus&display=swap" rel="stylesheet">
+    <!--icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!--navbar-->
+    <span class="present">Bien venu Jean</span>
+    <nav>
+
+        <ul><a href="http://">Acceuil</a></ul>
+        <ul><a href="http://">Panier</a></ul>
+    </nav>
+    <!--acceuil-->
+    <div class="acceuil section">
+        <p>Explorer notre galrie pour trouver le vehicule qu'il vous faut</p>
+        <span class="material-symbols-outlined">expand_more</span>
+    </div>
+    <?php
+    $voiture = '<div class="cars section">
+    <span class="model">
+        <h1 class="MNom">Bugatti Divo</h1>
+        <button class="add">ajouter au panier</button>
+    </span>
+    <div class="description">
+        <div class="describ">
+            <span class="describ1">brand</span>
+            <br>
+            <span class="describ2">Bugatti</span>
+        </div>
+        <div class="describ">
+            <span class="describ1">power</span>
+            <br>
+            <span class="describ2">300hv</span>
+        </div>
+        <div class="describ">
+            <span class="describ1">0-100</span>
+            <br>
+            <span class="describ2">3.2s</span>
+        </div>
+    </div>
+    <span class="material-symbols-outlined">expand_more</span>
+</div>
+</div>';
+
+    for($i=0;$i<=10;$i++){
+        echo $voiture;
+    }
+    ?>
+
+    <!--voitures-->
+    <div class="cars section">
+        <span class="model">
+            <h1 class="MNom">Bugatti Divo</h1>
+            <button class="add">ajouter au panier</button>
+        </span>
+        <div class="description">
+            <div class="describ">
+                <span class="describ1">brand</span>
+                <br>
+                <span class="describ2">Bugatti</span>
+            </div>
+            <div class="describ">
+                <span class="describ1">power</span>
+                <br>
+                <span class="describ2">300hv</span>
+            </div>
+            <div class="describ">
+                <span class="describ1">0-100</span>
+                <br>
+                <span class="describ2">3.2s</span>
+            </div>
+        </div>
+        <span class="material-symbols-outlined">expand_more</span>
+    </div>
+    </div>
+
+        <!--voitures-->
+        <div class="cars section">
+            <span class="model">
+                <h1 class="MNom">Bugatti Divo</h1>
+                <button class="add">ajouter au panier</button>
+            </span>
+            <div class="description">
+                <div class="describ">
+                    <span class="describ1">brand</span>
+                    <br>
+                    <span class="describ2">Bugatti</span>
+                </div>
+                <div class="describ">
+                    <span class="describ1">power</span>
+                    <br>
+                    <span class="describ2">300hv</span>
+                </div>
+                <div class="describ">
+                    <span class="describ1">0-100</span>
+                    <br>
+                    <span class="describ2">3.2s</span>
+                </div>
+            </div>
+            <span class="material-symbols-outlined">expand_more</span>
+        </div>
+        </div>
+
+
+</body>
+
+</html>
