@@ -28,67 +28,11 @@
         <p>Explorer notre galrie pour trouver le vehicule qu'il vous faut</p>
         <span class="material-symbols-outlined">expand_more</span>
     </div>
+    
+    
     <?php
-    $voiture = '<div class="cars section">
-    <span class="model">
-        <h1 class="MNom">Bugatti Divo</h1>
-        <button class="add">ajouter au panier</button>
-    </span>
-    <div class="description">
-        <div class="describ">
-            <span class="describ1">brand</span>
-            <br>
-            <span class="describ2">Bugatti</span>
-        </div>
-        <div class="describ">
-            <span class="describ1">power</span>
-            <br>
-            <span class="describ2">300hv</span>
-        </div>
-        <div class="describ">
-            <span class="describ1">0-100</span>
-            <br>
-            <span class="describ2">3.2s</span>
-        </div>
-    </div>
-    <span class="material-symbols-outlined">expand_more</span>
-</div>
-</div>';
-
-    for($i=0;$i<=10;$i++){
-        echo $voiture;
-    }
-    ?>
-
-    <!--voitures-->
-    <div class="cars section">
-        <span class="model">
-            <h1 class="MNom">Bugatti Divo</h1>
-            <button class="add">ajouter au panier</button>
-        </span>
-        <div class="description">
-            <div class="describ">
-                <span class="describ1">brand</span>
-                <br>
-                <span class="describ2">Bugatti</span>
-            </div>
-            <div class="describ">
-                <span class="describ1">power</span>
-                <br>
-                <span class="describ2">300hv</span>
-            </div>
-            <div class="describ">
-                <span class="describ1">0-100</span>
-                <br>
-                <span class="describ2">3.2s</span>
-            </div>
-        </div>
-        <span class="material-symbols-outlined">expand_more</span>
-    </div>
-    </div>
-
-        <!--voitures-->
-        <div class="cars section">
+    for($i = 1; $i <= 2; $i++){
+        $voiture = '<div class="cars section" style="background-image: url(v'. $i. '.jpg);">
             <span class="model">
                 <h1 class="MNom">Bugatti Divo</h1>
                 <button class="add">ajouter au panier</button>
@@ -111,8 +55,11 @@
                 </div>
             </div>
             <span class="material-symbols-outlined">expand_more</span>
-        </div>
-        </div>
+        </div>';
+        echo $voiture;
+    }
+?>
+
 
 
 </body>
