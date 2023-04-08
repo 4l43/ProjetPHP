@@ -23,13 +23,14 @@ nav {
 
 nav ul a {
     text-decoration: none;
-    color: black;
+    color: aliceblue;
 }
 
 .present {
     position: fixed;
     z-index: 2;
     top: 5px;
+    color: aliceblue;
 
 }
 
@@ -50,18 +51,20 @@ nav ul a {
     height: 100vh;
     display: grid;
     position: relative;
-    background-color: blue;
+    background-image: url(v1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     grid-template-areas:
         "model image"
         "description image";
 }
 
 .model {
-    background-color: aquamarine;
     grid-area: model;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:baseline;
     flex-direction: column;
 }
 
@@ -75,18 +78,20 @@ nav ul a {
 /*descrition*/
 
 .description {
-    background-color: bisque;
     grid-area: description;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    color: aliceblue;
 
 }
 
 .image {
+    /*
     background-image: url(v1.png);
     background-repeat: no-repeat;
     background-position: 0%;
+    */
     grid-area: image;
 }
