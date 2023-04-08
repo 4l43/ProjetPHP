@@ -1,0 +1,67 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*nav+present*/
+
+nav{
+    display:flex;
+    position: fixed;
+    flex-direction:row;
+    justify-content: right;
+    top:-10px;
+    width: 95%;
+    z-index: 3;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.present{
+    position: fixed;
+    z-index: 2;
+    top: 5px;
+
+}
+
+/*acceuil*/
+
+.acceuil{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+}
+/*voiture*/
+.cars{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    position: relative;
+    background-color: blue;
+    grid-template-areas:
+    "model image"
+    "description image";
+}
+
+.model{
+ background-color: aquamarine;
+ grid-area: model;
+}
+
+.description{
+    background-color: bisque;
+    grid-area: description;
+}
+.image{
+    background-color: blueviolet;
+    grid-area: image;
+}
+
+
